@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Modal, Button, Container, Row, Col, Dropdown } from "react-bootstrap";
+import { Container, Row, Col, Dropdown } from "react-bootstrap";
 import "./login.css";
 export default class Form extends Component {
   render() {
@@ -38,8 +38,11 @@ export default class Form extends Component {
                     placeholder="フリーコメントで入力"
                   />
                 </div>
-                <div style={{ textAlign: "center", marginTop: 13 }}>
-                  <Button>保存</Button>
+                <div
+                  className="m-4"
+                  style={{ textAlign: "center", marginTop: 13 }}
+                >
+                  <button className="btn btn-outline-primary">保存</button>
                 </div>
                 <p style={{ textAlign: "center", marginTop: 13 }}>
                   <u> 入力時刻：2019/07/30 15:37</u>
@@ -79,8 +82,11 @@ export default class Form extends Component {
                     placeholder="フリーコメントで入力"
                   />
                 </div>
-                <div style={{ textAlign: "center", marginTop: 13 }}>
-                  <Button>保存</Button>
+                <div
+                  className="m-4"
+                  style={{ textAlign: "center", marginTop: 13 }}
+                >
+                  <button className="btn btn-outline-primary">保存</button>
                 </div>
                 <p style={{ textAlign: "center", marginTop: 13 }}>
                   <u> 入力時刻：2019/07/30 15:37</u>

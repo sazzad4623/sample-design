@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Bar } from "react-chartjs-2";
-import { Modal, Button, Container, Row, Col } from "react-bootstrap";
 
 const data = {
   labels: ["January", "February", "March", "April", "May", "June", "July"],
@@ -33,7 +32,7 @@ export default class Barchart extends Component {
           />
         </div>
         <div className="m-4" style={{ textAlign: "center", marginTop: 13 }}>
-          <Button>保存</Button>
+          <button className="btn btn-outline-primary">保存</button>
         </div>
       </div>
     );
