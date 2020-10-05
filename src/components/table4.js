@@ -5,6 +5,9 @@ export default class Table4 extends Component {
   render() {
     return (
       <div>
+        <p>－－－－－－－－－－－－－</p>
+        <p>3. ID通知 初回</p>
+        <p>－－－－－－－－－－－－－</p>
         <table className="table table-bordered m-2 w-50">
           <tr>
             <th>件名</th>
