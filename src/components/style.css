@@ -1,0 +1,7 @@
+hr.solid {
+  border-top: 3px solid #999;
+}
+
+table.table-bordered > thead > tr > th {
+  border: 1px solid black;
+}

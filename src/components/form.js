@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Modal, Button, Container, Row, Col } from "react-bootstrap";
+import { Modal, Button, Container, Row, Col, Dropdown } from "react-bootstrap";
 import "./login.css";
 export default class Form extends Component {
   render() {
@@ -20,8 +20,8 @@ export default class Form extends Component {
                     面談終了後の記録として、感じたことを自由に入力してください。
                     ※上司はこのコメントはみれません。（人事のみ閲覧できます。）
                   </h7>
-                  <h7>＜STEP1＞</h7>
                 </div>
+                <h7>＜STEP1＞</h7>
                 <div className="form-group">
                   <label>アドバイス受けた内容</label>
                   <input
@@ -45,6 +45,24 @@ export default class Form extends Component {
                   <u> 入力時刻：2019/07/30 15:37</u>
                 </p>
                 <h7>＜STEP2＞</h7>
+                <div className="m-1">
+                  <h7>幸せ度</h7>
+                  <Dropdown>
+                    <Dropdown.Toggle id="dropdown-basic">
+                      Dropdown Button
+                    </Dropdown.Toggle>
+
+                    <Dropdown.Menu>
+                      <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
+                      <Dropdown.Item href="#/action-2">
+                        Another action
+                      </Dropdown.Item>
+                      <Dropdown.Item href="#/action-3">
+                        Something else
+                      </Dropdown.Item>
+                    </Dropdown.Menu>
+                  </Dropdown>
+                </div>
                 <div className="form-group">
                   <label>アドバイス受けた内容</label>
                   <input

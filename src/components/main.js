@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import Table1 from "./table1";
+import "./style.css";
 
 export default class Main extends Component {
   render() {
@@ -14,8 +16,17 @@ export default class Main extends Component {
             日頃現場で頑張って働いてくれている外国人従業員とコミュニケーションを取ることができる大切な期間ですので、対応をお願いいたします。
           </p>
         </div>
+        <div className="mt-2">
+          <Table1 />
+        </div>
         <div>
-          <p>【ご本人 アンケート実施進捗】</p>
+          <hr className="solid"></hr>
+        </div>
+        <div>
+          <p>
+            【外国従業員 アンケート実施進捗】
+            ※面談官が担当するアンケート実施者が表示されています。
+          </p>
           <table className="table table-bordered">
             <tr>
               <th rowSpan="2">所属部署</th>

@@ -7,9 +7,9 @@ import Form from "./components/form";
 function App() {
   return (
     <div className="container">
-      {/* <Main /> */}
-      {/* <Barchart /> */}
-      {/* <Table2 /> */}
+      <Main />
+      <Barchart />
+      <Table2 />
       <Form />
     </div>
   );

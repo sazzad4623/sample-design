@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Bar } from "react-chartjs-2";
+import { Modal, Button, Container, Row, Col } from "react-bootstrap";
 
 const data = {
   labels: ["January", "February", "March", "April", "May", "June", "July"],
@@ -19,7 +20,7 @@ const data = {
 export default class Barchart extends Component {
   render() {
     return (
-      <div className="border border-primary">
+      <div className="border border-primary w-25">
         <div className="m-2">
           <h2>Bar Example (custom size)</h2>
           <Bar
@@ -30,6 +31,9 @@ export default class Barchart extends Component {
               maintainAspectRatio: false,
             }}
           />
+        </div>
+        <div className="m-4" style={{ textAlign: "center", marginTop: 13 }}>
+          <Button>保存</Button>
         </div>
       </div>
     );
