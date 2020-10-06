@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Container, Row, Col, Dropdown } from "react-bootstrap";
+import { Container, Row, Col, Dropdown, Form } from "react-bootstrap";
 
 export default class Form4 extends Component {
   render() {
@@ -20,14 +20,10 @@ export default class Form4 extends Component {
                   placeholder="フリーコメントで入力"
                 />
               </div>
-              <div className="form-group">
-                <label>フォルダ選択</label>
-                <input
-                  type="Textarea"
-                  className="form-control"
-                  placeholder="フリーコメントで入力"
-                />
-              </div>
+              <Form.Group controlId="exampleForm.ControlTextarea1">
+                <Form.Label>フォルダ選択</Form.Label>
+                <Form.Control as="textarea" rows="3" />
+              </Form.Group>
             </Col>
             <Col>
               <div
