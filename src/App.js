@@ -6,6 +6,8 @@ import Form from "./components/form";
 import Form2 from "./components/form2";
 import Table3 from "./components/table3";
 import Table4 from "./components/table4";
+import Form3 from "./components/form3";
+import Form4 from "./components/form4";
 
 function App() {
   return (
@@ -15,8 +17,10 @@ function App() {
       <Table2 />
       <Form /> */}
       {/* <Form2 /> */}
-      <Table3 />
-      <Table4 />
+      {/* <Table3 />
+      <Table4 /> */}
+      <Form3 />
+      <Form4 />
     </div>
   );
 }
